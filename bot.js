@@ -26,7 +26,7 @@
 'use strict'
 
 const botBuilder = require('claudia-bot-builder')
-const botFlow = require('./lib/bot-flow')
+const botFlow = require('./lib/bot-flow.js')
 
 const api = botBuilder(botFlow, {
 	platforms: ['facebook']
